@@ -22,3 +22,14 @@ We decided to keep only the first country of each cell in the corresponding colu
 We kept only the 10 most occurring values in the ‘country’ column.
 And finally we scaled the runtime column.
 
+## Models 
+
+We had to use the following models :
+
+-RidgeClassifier
+
+-SVC
+
+-CategoricalNB
+
+-ExtraTreesClassifier
