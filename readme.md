@@ -3,6 +3,9 @@
 
 # Project | Module 3
 
+## Authors
+### Vito Coquet & Ildem Sanli 
+
 ## Introduction
 
 The goal of this project is to practise in supervised learning using Netflix data. We need to create the model for the rating prediction. 
@@ -24,12 +27,23 @@ And finally we scaled the runtime column.
 
 ## Models 
 
-We had to use the following models :
+We used the following models :
 
--RidgeClassifier
+-RidgeClassifier : Calssifier based on ridge regression. It converts the target values into {-1, 1} and then treats the problem as a regression task (multi-output regression in the multiclass case).
 
--SVC
+-SVC : C-support vector classification is a class of Support Vector Machines(SVM). SVMs divide the datasets into number of classes by generating a hyperplane.
 
--CategoricalNB
+-CategoricalNB : Categorical Naïve Bayes is a probabilistic classifier based on Bayes Theorem with a strong independence assumption between the features.
+It is suitable for classification with discrete features that are categorically distributed.
 
--ExtraTreesClassifier
+-ExtraTreesClassifier : Ensemble method composed of a large number of decision trees, where the final decision is obtained taking into account the prediction of every tree. 
+
+We obtained the best results with Extra Trees Classifier. 
+
+## Repo Structure
+
+Our repo is organised as follows:
+
+Data: Original and cleaned datasets in CSV format
+Code: Data cleaning, Exploratory Data Analysis and Model Implementation
+Presentation: Slides explaining the project and showing the results
