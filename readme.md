@@ -45,5 +45,7 @@ We obtained the best results with Extra Trees Classifier.
 Our repo is organised as follows:
 
 Data: Original and cleaned datasets in CSV format
+
 Code: Data cleaning, Exploratory Data Analysis and Model Implementation
+
 Presentation: Slides explaining the project and showing the results
